@@ -96,17 +96,32 @@
   @media (max-width: 768px) {
     .contact-container {
       flex-direction: column;
+      align-items: normal;
+      padding: 0 20px;
     }
-  
+
     .contact-form,
     .contact-details {
-      padding: 0;
+      margin-bottom: 30px;
+      padding: 15px;
     }
   }
   
   @media (max-width: 480px) {
     .contact-title {
       font-size: 2rem;
+    }
+
+    .contact-container {
+      flex-direction: column;
+      align-items: normal;
+      padding: 0 20px;
+    }
+
+    .contact-form,
+    .contact-details {
+      margin-bottom: 30px;
+      padding: 15px;
     }
   
     .form-group input,

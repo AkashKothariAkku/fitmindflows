@@ -91,6 +91,10 @@
     .testimonials-title {
       font-size: 2rem;
     }
+
+    .testimonials-section{
+      height: 50vh;
+    }
   
     .testimonial-text {
       font-size: 1.2rem;

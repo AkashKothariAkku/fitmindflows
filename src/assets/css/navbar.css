@@ -30,7 +30,7 @@
   /* Media Query for Mobile Responsiveness */
   @media (max-width: 991px) {
     .navbar-collapse {
-      background-color: #343a40; /* Add background color to mobile menu */
+      background-color: #000000; /* Add background color to mobile menu */
       padding: 20px;
     }
   
