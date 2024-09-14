@@ -1,12 +1,13 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import '../assets/css/navbar.css'; 
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" className="shadow-sm">
       <Container>
         {/* Replace with your logo */}
-        <Navbar.Brand href="#">
+        <Navbar.Brand to="#">
           <img
             src="images/FMFwhitelogo.svg"
             width="80"
@@ -19,21 +20,21 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className="nav-link">
+            <NavLink to="/" className="nav-link">
               Home
-            </Nav.Link>
-            <Nav.Link href="/about" className="nav-link">
+            </NavLink>
+            <NavLink to="/about" className="nav-link">
               About
-            </Nav.Link>
-            <Nav.Link href="/coaches" className="nav-link">
+            </NavLink>
+            <NavLink to="/coaches" className="nav-link">
               Coaches
-            </Nav.Link>
-            <Nav.Link href="Blog" className="nav-link">
+            </NavLink>
+            <NavLink to="/blog" className="nav-link">
               Blogs
-            </Nav.Link>
-            <Nav.Link href="/contact" className="nav-link">
+            </NavLink>
+            <NavLink to="/contact" className="nav-link">
               Contact
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
