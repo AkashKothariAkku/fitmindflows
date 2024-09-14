@@ -3,21 +3,14 @@ import '../assets/css/navbar.css';
 
 const Header = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      bg="dark"
-      variant="dark"
-      fixed="top"
-      className="shadow-sm"
-    >
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" className="shadow-sm">
       <Container>
         {/* Replace with your logo */}
         <Navbar.Brand href="#">
           <img
             src="images/FMFwhitelogo.svg"
-            width="60"
-            height="40"
+            width="80"
+            height="60"
             className="d-inline-block align-top"
             alt="Logo"
           />
