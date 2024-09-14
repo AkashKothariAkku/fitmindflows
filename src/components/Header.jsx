@@ -14,7 +14,7 @@ const Header = () => {
             height="60"
             className="d-inline-block align-top"
             alt="Logo"
-          />
+          /> 
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
