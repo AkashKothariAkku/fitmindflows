@@ -7,9 +7,9 @@ const CoachesSection = () => {
     const coachesData = [
         {
             id: 1,
-            name: 'Coach John Doe',
-            designation: 'Head Coach',
-            image: '/images/coaches.svg',
+            name: 'Priyanshu Sharma',
+            designation: 'Personal Trainer',
+            image: '/images/Priyanshu.svg',
         },
         {
             id: 2,
