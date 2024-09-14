@@ -9,8 +9,8 @@ const Header = () => {
         <Navbar.Brand href="#">
           <img
             src="images/FMFwhitelogo.svg"
-            width="60"
-            height="40"
+            width="80"
+            height="60"
             className="d-inline-block align-top"
             alt="Logo"
           />
