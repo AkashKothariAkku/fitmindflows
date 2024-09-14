@@ -1,0 +1,107 @@
+/* Container styling */
+.coaches-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  /* Title with underline effect */
+  .coaches-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    color: #0077BD;
+  }
+  
+  .coaches-title::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 4px;
+    background-color: #ff6a00;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  /* Description */
+  .coaches-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  /* Carousel styling */
+  .slick-slide {
+    padding: 0 10px;
+  }
+  
+  .slider-container {
+    overflow: hidden; /* prevents overflow issues */
+  }
+
+  .coach-card {
+    background-color: #0077BD;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* ensure padding and border do not cause overflow */
+    padding: 10px;
+  }
+  
+  .coach-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .coach-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .coach-info {
+    padding: 15px;
+  }
+  
+  .coach-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .coach-designation {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 1024px) {
+    .coaches-title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .coaches-title {
+      font-size: 2rem;
+    }
+  
+    .coach-image {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .coaches-title {
+      font-size: 1.8rem;
+    }
+  
+    .coach-image {
+      height: 120px;
+    }
+  }
+  
