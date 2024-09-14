@@ -1,0 +1,152 @@
+/* Overall styling for the section */
+.content-section {
+    padding: 80px 0 ;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Image column styling */
+.image-column img {
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 1s forwards ease-in-out;
+    /* Animation for the image */
+}
+
+/* Content column styling */
+.content-column {
+    padding-left: 30px;
+}
+
+.content-box {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards ease-in-out;
+    margin-bottom: 0;
+    /* Removes extra space */
+}
+
+.animated-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 0;
+    color: #0077BD;
+    animation: fadeInUp 1s 0.5s forwards ease-in-out;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Creative title design with underscore lines */
+.animated-title::before,
+.animated-title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #ff6a00;
+    top: 100%;
+    left: 0;
+    animation: slideIn 1s ease forwards;
+}
+
+.animated-title::after {
+    left: auto;
+    right: 0;
+    background-color: #ff6a00;
+}
+
+.animated-text{
+    font-size: large;
+    font-weight: 600;
+}
+
+/* Button styling */
+.animated-button {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin-bottom: 0;
+    background-color: #ff6a00;
+    color: #ffffff;
+    /* Removes extra space below button */
+}
+
+.animated-button:hover {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin-bottom: 0;
+    background-color: #0077BD;
+    color: #ffffff;
+    /* Removes extra space below button */
+}
+
+/* Remove space below the section */
+.content-section {
+    margin-bottom: 0;
+    /* Ensures no additional space */
+}
+
+/* Keyframes for the animations */
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50px;
+    }
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 767px) {
+    .content-column {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .image-column {
+        margin-bottom: 30px;
+    }
+
+    /* Center title for mobile */
+    .animated-title {
+        text-align: center;
+    }
+
+    /* Adjust underscore lines for mobile */
+    .animated-title::before,
+    .animated-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+    }
+}
