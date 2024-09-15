@@ -13,15 +13,15 @@ const CoachesSection = () => {
         },
         {
             id: 2,
-            name: 'Coach Jane Smith',
-            designation: 'Fitness Coach',
-            image: '/images/coaches.svg',
+            name: 'Kuldeep Singh',
+            designation: 'Head Coach',
+            image: '/images/kd1.svg',
         },
         {
             id: 3,
-            name: 'Coach Mark Johnson',
-            designation: 'Strength Coach',
-            image: '/images/coaches.svg',
+            name: 'Phalguni',
+            designation: 'Yoga trainer',
+            image: '/images/phalguni.svg',
         },
         {
             id: 4,
@@ -75,17 +75,17 @@ const CoachesSection = () => {
 
     return (
         <div className="coaches-section mt-3">
-            <h2 className="coaches-title">Meet Our New Generation Coaches</h2>
-            <p className="coaches-description">
+            <h2 className="coach-title">Meet Our New Generation Coaches</h2>
+            <p className="coach-description">
                 Our coaches are experts in various fitness disciplines and are here to help you achieve your fitness goals. Get to know them better!
             </p>
             <Slider {...settings} className='slider-container'>
                 {coachesData.map((coach) => (
-                    <div key={coach.id} className="coach-card">
-                        <img src={coach.image} alt={coach.name} className="coach-image" />
-                        <div className="coach-info">
-                            <h3 className="coach-name">{coach.name}</h3>
-                            <p className="coach-designation">{coach.designation}</p>
+                    <div key={coach.id} className="coaches-card">
+                        <img src={coach.image} alt={coach.name} className="coaches-image" />
+                        <div className="coaches-info">
+                            <h3 className="coaches-name">{coach.name}</h3>
+                            <p className="coaches-designation">{coach.designation}</p>
                         </div>
                     </div>
                 ))}
