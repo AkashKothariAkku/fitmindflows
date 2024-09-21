@@ -10,8 +10,8 @@ const TestimonialsSection = () => {
     },
     {
       id: 2,
-      text: 'Exceptional quality and amazing customer support.',
-      author: 'Jane Smith',
+      text: 'When I started training with Kuldeep, I weighed 161 kg and struggled with my strength and cardiovascular health. After just two months of consistent training, I’ve lost 12 kg, bringing my weight down to 149 kg. But even more importantly, my strength has improved significantly, and I feel much healthier overall, especially with my cardiovascular endurance. Kuldeep’s guidance and support throughout the journey have been exceptional. His tailored workouts and constant encouragement have made this transformation possible, and I feel stronger and more energized every day.',
+      author: 'Dr. Boney Cheayam',
     },
     {
       id: 3,
