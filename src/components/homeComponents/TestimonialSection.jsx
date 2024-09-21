@@ -5,8 +5,8 @@ const TestimonialsSection = () => {
   const testimonialsData = [
     {
       id: 1,
-      text: 'This product has changed the way I work and live!',
-      author: 'John Doe',
+      text: 'I’ve been training with Kuldeep for over a year now, and the transformation I’ve experienced has been incredible. Not only have I gained noticeable strength, but my overall fitness level has improved drastically. At 57, I feel more powerful and healthier than ever before. Kuldeep’s training approach is personalized, motivating, and effective. He has a deep understanding of fitness, and his guidance has helped me achieve results I didn’t think were possible at my age. I’m truly grateful for his dedication and expertise.',
+      author: 'Dr. Ayman Elnaqa',
     },
     {
       id: 2,
