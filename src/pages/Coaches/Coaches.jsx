@@ -5,29 +5,35 @@ import { useNavigate } from 'react-router-dom';
 
 const coachesData = [
   {
-    id: 1,
-    name: 'John Doe',
-    designation: 'Fitness Coach',
-    image: 'path_to_image_1.jpg' // Replace with actual path
+      id: 1,
+      name: 'Priyanshu Sharma',
+      designation: 'Personal Trainer',
+      image: '/images/Priyanshu.svg',
   },
   {
-    id: 2,
-    name: 'Jane Smith',
-    designation: 'Yoga Instructor',
-    image: 'path_to_image_2.jpg' // Replace with actual path
+      id: 2,
+      name: 'Kuldeep Singh',
+      designation: 'Head Coach',
+      image: '/images/kd1.svg',
   },
   {
-    id: 3,
-    name: 'Mike Johnson',
-    designation: 'Strength Trainer',
-    image: 'path_to_image_3.jpg' // Replace with actual path
+      id: 3,
+      name: 'Phalguni',
+      designation: 'Yoga trainer',
+      image: '/images/phalguni.svg',
   },
   {
-    id: 4,
-    name: 'Emily Davis',
-    designation: 'Pilates Coach',
-    image: 'path_to_image_4.jpg' // Replace with actual path
-  }
+      id: 4,
+      name: 'Coach Emily Davis',
+      designation: 'Yoga Instructor',
+      image: '/images/coaches.svg',
+  },
+  {
+      id: 5,
+      name: 'Coach Alex Brown',
+      designation: 'Cardio Specialist',
+      image: '/images/coaches.svg',
+  },
   // Add more coaches as needed
 ];
 
@@ -54,7 +60,7 @@ const Coaches = () => {
         {coachesData.map(coach => (
           <div key={coach.id} className="coach-card" onClick={() => handleCardClick(coach.id)}>
             <img
-              src="https://via.placeholder.com/150"
+              src={coach.image}
               alt={coach.name}
               className="coach-image"
               style={styles.image}

@@ -11,20 +11,32 @@ const CardsSection = () => {
     },
     {
       id: 2,
+      title: 'Weight Loss Training',
+      description: 'This program combines high-intensity workouts, strength training, and functional movements to maximize fat burn and improve your metabolism.',
+      image: 'images/yoga.svg',
+    },
+    {
+      id: 3,
+      title: 'Fitness and Nutrition',
+      description: 'Achieve your fitness goals faster with balanced nutrition plans and expert guidance on the best foods to fuel your body.',
+      image: 'images/yoga.svg',
+    },
+    {
+      id: 4,
       title: 'Injury Rehabilitation',
       description: 'Recover safely and effectively with customized rehabilitation programs designed to restore your strength and mobility.',
       image: 'images/yoga.svg',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Yoga',
       description: 'Enhance your body and mind connection with our yoga sessions, blending breath, movement, and mindfulness for holistic well-being.',
       image: 'images/yoga.svg',
     },
     {
-      id: 4,
-      title: 'Fitness and Nutrition',
-      description: 'Achieve your fitness goals faster with balanced nutrition plans and expert guidance on the best foods to fuel your body.',
+      id: 6,
+      title: 'Kickboxing Training',
+      description: ' Led by expert trainers, our sessions incorporate powerful kicks, punches, and footwork drills to challenge your endurance, coordination, and speed.',
       image: 'images/yoga.svg',
     }
   ];
@@ -34,7 +46,7 @@ const CardsSection = () => {
       <Container>
         <Row>
           {cardsData.map(card => (
-            <Col md={6} lg={3} key={card.id} className="mb-4">
+            <Col md={6} lg={4} key={card.id} className="mb-4">
               <Card className="custom-card" style={{ backgroundColor: '#ffffff' }}>
                 <Card.Img
                   variant="top"

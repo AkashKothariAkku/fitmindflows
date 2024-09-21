@@ -12,8 +12,8 @@ const HeroSlider = () => {
           alt="First slide"
         />
         <Carousel.Caption className="hero-caption">
-          <h3>Welcome to Our Company</h3>
-          <p>Innovating your future</p>
+          <h3>Dream fit, we are here</h3>
+          <p>Fit goals made easy</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -24,8 +24,8 @@ const HeroSlider = () => {
           alt="Second slide"
         />
         <Carousel.Caption className="hero-caption">
-          <h3>We Lead the Industry</h3>
-          <p>Excellence in every service</p>
+          <h3>Your top choice for fitness</h3>
+          <p>Excellence in a healthy lifestyle</p>
         </Carousel.Caption>
       </Carousel.Item>
 
