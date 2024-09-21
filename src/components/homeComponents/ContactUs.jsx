@@ -24,13 +24,13 @@ const ContactUs = () => {
         {/* Contact Details */}
         <div className="contact-details text-center">
           <p className="contact-info">
-            <strong>Phone:</strong> +91 8696610310
+            <strong>Phone:</strong> <a href='tel:+918696610310' style={{textDecoration:"none", color:"#000000"}}>+91 8696610310</a>
           </p>
           <p className="contact-info">
-            <strong>WhatsApp</strong> +974 30434644
+            <strong>WhatsApp:</strong> <a href="https://wa.me/+97430434644" target="_blank" style={{textDecoration:"none", color:"#000000"}}>+974 30434644</a>
           </p>
           <p className="contact-info">
-            <strong>Email:</strong> fitmindflows@gmail.com
+            <strong>Email:</strong> <a href='mailto:fitmindflows@gmail.com' style={{textDecoration:"none", color:"#000000"}}>fitmindflows@gmail.com</a>
           </p>
           <div className="contact-map">
             {/* Optional: Add a map iframe for visual purposes */}

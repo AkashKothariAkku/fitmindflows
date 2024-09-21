@@ -6,15 +6,15 @@ import { useNavigate } from 'react-router-dom';
 const coachesData = [
   {
       id: 1,
-      name: 'Priyanshu Sharma',
-      designation: 'Personal Trainer',
-      image: '/images/Priyanshu.svg',
-  },
-  {
-      id: 2,
       name: 'Kuldeep Singh',
       designation: 'Head Coach',
       image: '/images/kd1.svg',
+  },
+  {
+      id: 2,
+      name: 'Priyanshu Sharma',
+      designation: 'Personal Trainer',
+      image: '/images/Priyanshu.svg',
   },
   {
       id: 3,
