@@ -50,7 +50,7 @@
     background-color: #ff6a00;
     top: 100%;
     left: 0;
-    animation: slideIn 1s ease forwards;
+    /* animation: slideIn 1s ease forwards; */
 }
 
 .animated-title::after {
