@@ -1,0 +1,89 @@
+
+  
+  .event-details-page {
+    padding: 20px;
+    padding-top: 100px;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Header */
+  .event-header {
+    background-color: #007bff;
+    padding: 40px 0;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .event-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .event-date {
+    font-size: 18px;
+  }
+  /* Image Upload */
+  .event-image-container {
+    margin: 20px 0;
+  }
+  
+  .single-event-image {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .upload-placeholder {
+    padding: 50px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f4f4f4;
+  }
+  
+  .upload-label {
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .upload-input {
+    display: none;
+  }
+  
+  /* Event Details */
+  .event-details {
+    text-align: left;
+  }
+  
+  .details-heading {
+    font-size: 28px;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 19px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .event-info-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-info-list li {
+    font-size: 19px;
+    margin: 10px 0;
+  }
+  

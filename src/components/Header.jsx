@@ -32,6 +32,9 @@ const Header = () => {
             {/* <NavLink to="/blog" className="nav-link">
               Blogs
             </NavLink> */}
+            <NavLink to="/upcoming-events" className="nav-link">
+              Upcoming Events
+            </NavLink>
             <NavLink to="/contact" className="nav-link">
               Contact
             </NavLink>

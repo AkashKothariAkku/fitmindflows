@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .events-page {
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #007bff;
+    padding: 20px 0;
+  }
+  
+  .title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Event Card Styles */
+  .events-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 20px;
+    padding: 0;
+    transition: transform 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Event Image */
+  .event-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+  
+  /* Date Styles */
+  .event-date {
+    background-color: #ff6a00;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .event-date .day {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .event-date .month {
+    font-size: 18px;
+  }
+  
+  /* Event Info Styles */
+  .event-info {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .event-description {
+    font-size: 19px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .event-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .event-button:hover {
+    background-color: #0056b3;
+  }
+  
