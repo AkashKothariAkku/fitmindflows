@@ -7,11 +7,11 @@ import Header from "../../components/Header";
 const eventsData = [
   {
     id: 1,
-    day: "04",
+    day: "07-12",
     month: "Oct",
-    title: "Wellness WorkShop",
-    description: "Boost your health with practical tips, stress relief, and wellness insights in a fun workshop!.",
-    image: "/images/bhilwaraEventCut.jpeg", 
+    title: "MMA WorkShop",
+    description: "Unleash your strength and confidence with expert MMA techniques, cardio, and self-defense in a dynamic workshop!",
+    image: "/images/MMAthumbnail.png", 
   },
 ];
 
@@ -34,7 +34,7 @@ const UpcomingEvents = () => {
             <div className="event-info">
               <h2 className="event-title">{event.title}</h2>
               <p className="event-description">{event.description}</p>
-              <NavLink to='/bhilwara-event'><button className="event-button">Learn More</button></NavLink>
+              <NavLink to='/mma-workshop'><button className="event-button">Learn More</button></NavLink>
             </div>
           </div>
         ))}

@@ -31,7 +31,7 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/upcoming-events" element={<UpcomingEvents />} />
-          <Route path="/bhilwara-event" element={<EventDetailsPage />} />
+          <Route path="/mma-workshop" element={<EventDetailsPage />} />
           <Route path="admin-login-panel" element={<AdminLogin />} />
           <Route path="admin" element={<AdminNavigation />}>
           <Route index element={<Dashboard />} />
