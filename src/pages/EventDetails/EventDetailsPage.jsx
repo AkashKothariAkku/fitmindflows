@@ -46,18 +46,18 @@ const EventDetailsPage = () => {
 
           {/* Event details column */}
           <div className="event-details col-12 col-md-6">
-          <h2>Unleash Your Inner Fighter at Our MMA Workshop!</h2>
+            <h2>Unleash Your Inner Fighter at Our MMA Workshop!</h2>
 
-<p>Step into the world of <strong>Mixed Martial Arts</strong> and experience the thrill of combat training! Our MMA workshop offers a high-energy, action-packed session designed to boost your <strong>strength, agility, and confidence</strong>. Whether you are a beginner or have some experience, this workshop covers:</p>
+            <p>Step into the world of <strong>Mixed Martial Arts</strong> and experience the thrill of combat training! Our MMA workshop offers a high-energy, action-packed session designed to boost your <strong>strength, agility, and confidence</strong>. Whether you are a beginner or have some experience, this workshop covers:</p>
 
-<ul>
-  <li><strong>Striking Techniques:</strong> Master the basics of punches, kicks, elbows, and knees with expert guidance.</li>
-  <li><strong>Grappling & Submission Skills:</strong> Learn essential moves for ground control and submissions, including takedowns and joint locks.</li>
-  <li><strong>Cardio & Conditioning:</strong> Improve your endurance with dynamic drills that challenge both body and mind.</li>
-  <li><strong>Self-Defense:</strong> Equip yourself with practical self-defense skills you can use in real-life situations.</li>
-</ul>
+            <ul>
+              <li><strong>Striking Techniques:</strong> Master the basics of punches, kicks, elbows, and knees with expert guidance.</li>
+              <li><strong>Grappling & Submission Skills:</strong> Learn essential moves for ground control and submissions, including takedowns and joint locks.</li>
+              <li><strong>Cardio & Conditioning:</strong> Improve your endurance with dynamic drills that challenge both body and mind.</li>
+              <li><strong>Self-Defense:</strong> Equip yourself with practical self-defense skills you can use in real-life situations.</li>
+            </ul>
 
-<p>This workshop is perfect for anyone looking to <strong>get fit, sharpen their skills, or try something new</strong>. Train like a pro in a supportive, high-energy environment and take your fitness to the next level. Join us and <strong>unleash your fighting spirit!</strong></p>
+            <p>This workshop is perfect for anyone looking to <strong>get fit, sharpen their skills, or try something new</strong>. Train like a pro in a supportive, high-energy environment and take your fitness to the next level. Join us and <strong>unleash your fighting spirit!</strong></p>
 
             <ul className="event-info-list">
               <li><strong>Date:</strong> 07th-12th October, 2024</li>
