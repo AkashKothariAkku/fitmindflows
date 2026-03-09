@@ -4,8 +4,8 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import logo from "../../assets/FMFBlacklogo.svg";
-import logoWhite from "../../assets/FMFwhitelogo.svg";
+import logo from "/images/FMFBlacklogo.svg";
+import logoWhite from "/images/FMFwhitelogo.svg";
 
 export function Header() {
   const { theme, setTheme } = useTheme();

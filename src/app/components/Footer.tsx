@@ -49,7 +49,7 @@ export function Footer() {
             <Link to="/" className="inline-block mb-4">
               {mounted && (
                 <img
-                  src={theme === "dark" ? "/src/assets/FMFwhitelogo.svg" : "/src/assets/FMFBlacklogo.svg"}
+                  src={theme === "dark" ? "/images/FMFwhitelogo.svg" : "/images/FMFBlacklogo.svg"}
                   alt="Fitness & Wellness"
                   className="h-12 w-auto"
                 />
