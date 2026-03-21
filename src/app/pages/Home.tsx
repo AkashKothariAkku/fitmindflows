@@ -36,6 +36,7 @@ export default function Home() {
     },
   ];
 
+  
   const stats = [
     { value: "500+", label: "Clients Transformed" },
     { value: "10+", label: "Years Experience" },
