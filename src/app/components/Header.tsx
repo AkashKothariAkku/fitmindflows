@@ -4,6 +4,8 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import logo from "/images/FMFBlacklogo.svg";
+import logoWhite from "/images/FMFwhitelogo.svg";
 
 export function Header() {
   const { theme, setTheme } = useTheme();
@@ -33,7 +35,7 @@ export function Header() {
         <Link to="/" className="flex items-center space-x-2">
           {mounted && (
             <img
-              src={theme === "dark" ? "/src/assets/FMFwhitelogo.svg" : "/src/assets/FMFBlacklogo.svg"}
+              src={theme === "dark" ? logoWhite : logo}
               alt="Fitness & Wellness"
               className="h-10 w-auto"
             />

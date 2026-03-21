@@ -2,6 +2,8 @@ import { Link } from "react-router";
 import { useTheme } from "next-themes";
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { useState, useEffect } from "react";
+import logo from "/images/FMFBlacklogo.svg";
+import logoWhite from "/images/FMFwhitelogo.svg";
 
 export function Footer() {
   const { theme } = useTheme();
@@ -49,7 +51,7 @@ export function Footer() {
             <Link to="/" className="inline-block mb-4">
               {mounted && (
                 <img
-                  src={theme === "dark" ? "/src/assets/FMFwhitelogo.svg" : "/src/assets/FMFBlacklogo.svg"}
+                  src={theme === "dark" ? logoWhite : logo}
                   alt="Fitness & Wellness"
                   className="h-12 w-auto"
                 />
